@@ -1,0 +1,2053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>jonas</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="APC mini mk2" Line="0" Profile="Akai APC Mini Mk2 v2"/>
+    <Output Plugin="ArtNet" UID="192.168.1.10" Line="5">
+     <PluginParameters outputIP="2.198.172.197"/>
+    </Output>
+    <Feedback Plugin="MIDI" UID="APC mini mk2" Line="1"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>RevueLED 150 Profile 3200K</Model>
+   <Mode>2 Channel</Mode>
+   <ID>0</ID>
+   <Name>RevueLED 150 Profile 3200K #1</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>RevueLED 150 Profile 3200K</Model>
+   <Mode>2 Channel</Mode>
+   <ID>1</ID>
+   <Name>RevueLED 150 Profile 3200K #2</Name>
+   <Universe>0</Universe>
+   <Address>8</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Quad Par Profile RGBW 5x8W</Model>
+   <Mode>4ch</Mode>
+   <ID>2</ID>
+   <Name>Quad Par Profile RGBW 5x8W #1</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Quad Par Profile RGBW 5x8W</Model>
+   <Mode>4ch</Mode>
+   <ID>3</ID>
+   <Name>Quad Par Profile RGBW 5x8W #2</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>LED Theater Spot 50 3200K</Model>
+   <Mode>1 Channel</Mode>
+   <ID>4</ID>
+   <Name>LED Theater Spot 50 3200K #1</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>LED Theater Spot 50 3200K</Model>
+   <Mode>1 Channel</Mode>
+   <ID>5</ID>
+   <Name>LED Theater Spot 50 3200K #2</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>26 Channel</Mode>
+   <ID>6</ID>
+   <Name>Gigabar II #1</Name>
+   <Universe>0</Universe>
+   <Address>149</Address>
+   <Channels>26</Channels>
+   <ForcedHTP>1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>26 Channel</Mode>
+   <ID>7</ID>
+   <Name>Gigabar II #2</Name>
+   <Universe>0</Universe>
+   <Address>175</Address>
+   <Channels>26</Channels>
+   <ForcedHTP>1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>10 Channel</Mode>
+   <ID>8</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>111</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>4 Channel</Mode>
+   <ID>9</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>58</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>4 Channel</Mode>
+   <ID>10</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>67</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>11</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <ChannelsGroup ID="0" Name="SePar Dimmer Main" Value="0"/>
+  <ChannelsGroup ID="1" Name="SePar Red Main" Value="0"/>
+  <ChannelsGroup ID="2" Name="SePar Green Main" Value="0"/>
+  <ChannelsGroup ID="3" Name="SePar Blue Main" Value="0"/>
+  <ChannelsGroup ID="4" Name="SePar Amber MAin" Value="0"/>
+  <ChannelsGroup ID="5" Name="SePar White Main" Value="0"/>
+  <ChannelsGroup ID="6" Name="SePar UV Main" Value="0"/>
+  <ChannelsGroup ID="7" Name="SePar Strobo Main" Value="0"/>
+  <Function ID="0" Type="Scene" Name="SePar Dimmer 01">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="1" Type="Scene" Name="SePar Dimmer 02">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="2" Type="Scene" Name="SePar Dimmer 03">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="3" Type="Scene" Name="SePar Dimmer 04">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="4" Type="Scene" Name="SePar Dimmer 05">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="5" Type="Scene" Name="SePar Dimmer 06">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="6" Type="Scene" Name="SePar Dimmer 07">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="7" Type="Scene" Name="SePar Dimmer 08">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="8" Type="Scene" Name="SePar Dimmer 09">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="9" Type="Scene" Name="SePar Dimmer 10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="10" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="11" Type="Sequence" Name="New Sequence 11" BoundScene="10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="12" Type="Chaser" Name="SePar Dimmer Chaser 1-&gt;10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+  </Function>
+  <Function ID="13" Type="Chaser" Name="SePar Dimmer Chaser 1-&gt;10-&gt;1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+  </Function>
+  <Function ID="14" Type="Collection" Name="SePar Dimmer 01 + 02">
+   <Step Number="0">0</Step>
+   <Step Number="1">1</Step>
+  </Function>
+  <Function ID="15" Type="Collection" Name="SePar Dimmer 01 + 03">
+   <Step Number="0">0</Step>
+   <Step Number="1">2</Step>
+  </Function>
+  <Function ID="16" Type="Collection" Name="SePar Dimmer 01 + 04">
+   <Step Number="0">0</Step>
+   <Step Number="1">3</Step>
+  </Function>
+  <Function ID="17" Type="Collection" Name="SePar Dimmer 01 + 06">
+   <Step Number="0">0</Step>
+   <Step Number="1">5</Step>
+  </Function>
+  <Function ID="18" Type="Collection" Name="SePar Dimmer 01 + 07">
+   <Step Number="0">6</Step>
+   <Step Number="1">0</Step>
+  </Function>
+  <Function ID="19" Type="Collection" Name="SePar Dimmer 01 + 08">
+   <Step Number="0">0</Step>
+   <Step Number="1">7</Step>
+  </Function>
+  <Function ID="20" Type="Collection" Name="SePar Dimmer 01 + 09 ">
+   <Step Number="0">0</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="21" Type="Collection" Name="SePar Dimmer 01 + 10">
+   <Step Number="0">0</Step>
+   <Step Number="1">9</Step>
+  </Function>
+  <Function ID="22" Type="Collection" Name="SePar Dimmer 02 + 03">
+   <Step Number="0">1</Step>
+   <Step Number="1">2</Step>
+  </Function>
+  <Function ID="23" Type="Collection" Name="SePar Dimmer 02 + 04">
+   <Step Number="0">1</Step>
+   <Step Number="1">3</Step>
+  </Function>
+  <Function ID="24" Type="Collection" Name="SePar Dimmer 02 + 05">
+   <Step Number="0">1</Step>
+   <Step Number="1">4</Step>
+  </Function>
+  <Function ID="25" Type="Collection" Name="SePar Dimmer 02 + 06">
+   <Step Number="0">1</Step>
+   <Step Number="1">5</Step>
+  </Function>
+  <Function ID="26" Type="Collection" Name="SePar Dimmer 02 + 07">
+   <Step Number="0">6</Step>
+   <Step Number="1">1</Step>
+  </Function>
+  <Function ID="27" Type="Collection" Name="SePar Dimmer 02 + 08">
+   <Step Number="0">1</Step>
+   <Step Number="1">7</Step>
+  </Function>
+  <Function ID="28" Type="Collection" Name="SePar Dimmer 02 + 09">
+   <Step Number="0">1</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="29" Type="Collection" Name="SePar Dimmer 02 + 10">
+   <Step Number="0">1</Step>
+   <Step Number="1">9</Step>
+  </Function>
+  <Function ID="30" Type="Collection" Name="SePar Dimmer 03 + 04">
+   <Step Number="0">2</Step>
+   <Step Number="1">3</Step>
+  </Function>
+  <Function ID="31" Type="Collection" Name="SePar Dimmer 03 + 05">
+   <Step Number="0">2</Step>
+   <Step Number="1">4</Step>
+  </Function>
+  <Function ID="32" Type="Collection" Name="SePar Dimmer 03 + 06">
+   <Step Number="0">5</Step>
+   <Step Number="1">2</Step>
+  </Function>
+  <Function ID="33" Type="Collection" Name="SePar Dimmer 03 + 07">
+   <Step Number="0">2</Step>
+   <Step Number="1">6</Step>
+  </Function>
+  <Function ID="34" Type="Collection" Name="SePar Dimmer 03 + 08">
+   <Step Number="0">2</Step>
+   <Step Number="1">7</Step>
+  </Function>
+  <Function ID="35" Type="Collection" Name="SePar Dimmer 03 + 09">
+   <Step Number="0">2</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="36" Type="Collection" Name="SePar Dimmer 03 + 10">
+   <Step Number="0">2</Step>
+   <Step Number="1">9</Step>
+  </Function>
+  <Function ID="37" Type="Collection" Name="SePar Dimmer 04 + 05">
+   <Step Number="0">3</Step>
+   <Step Number="1">4</Step>
+  </Function>
+  <Function ID="38" Type="Collection" Name="SePar Dimmer 04 + 06">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+  </Function>
+  <Function ID="39" Type="Collection" Name="SePar Dimmer 04 + 07">
+   <Step Number="0">3</Step>
+   <Step Number="1">6</Step>
+  </Function>
+  <Function ID="40" Type="Collection" Name="SePar Dimmer 04 + 08">
+   <Step Number="0">3</Step>
+   <Step Number="1">7</Step>
+  </Function>
+  <Function ID="41" Type="Collection" Name="SePar Dimmer 04 + 09">
+   <Step Number="0">3</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="42" Type="Collection" Name="SePar Dimmer 04 + 10">
+   <Step Number="0">3</Step>
+   <Step Number="1">9</Step>
+  </Function>
+  <Function ID="43" Type="Collection" Name="SePar Dimmer 05 + 06">
+   <Step Number="0">4</Step>
+   <Step Number="1">5</Step>
+  </Function>
+  <Function ID="44" Type="Chaser" Name="SePar Dimmer Chaser 1-&gt;5; 10-&gt;6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+  </Function>
+  <Function ID="45" Type="Chaser" Name="SePar Dimmer Chaser 1-&gt;5; 6-&gt;10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+  </Function>
+  <Function ID="46" Type="Collection" Name="SePar Dimmer 01 + 05">
+   <Step Number="0">0</Step>
+   <Step Number="1">4</Step>
+  </Function>
+  <Function ID="47" Type="Collection" Name="SePar Dimmer 05 + 10"/>
+  <Function ID="48" Type="Chaser" Name="SePar Dimmer Chaser 1-&gt;5-&gt;1; 6-&gt;10-&gt;6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+  </Function>
+  <Function ID="49" Type="Scene" Name="Nebelmaschine">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="50" Type="Chaser" Name="SePar Dimmer Chaser 1-&gt;5-&gt;1; 10-&gt;6-&gt;10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+  </Function>
+  <Function ID="51" Type="Chaser" Name="SePar Dimmer Chaser 5-&gt;1; 6-&gt;10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+  </Function>
+  <Function ID="52" Type="Scene" Name="Flash in die Fresse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="53" Type="Chaser" Name="SePar Dimmer Chaser 5-&gt;1; 10-&gt;6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+  </Function>
+  <Function ID="54" Type="Scene" Name="SePar All Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="SePar All Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>2,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="SePar All Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="SePar All Amber ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>4,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="SePar All White">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>5,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="SePar All UV">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>6,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="SePar All Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>7,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="Standardlicht">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="11">0,255</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Chaser" Name="SePar Color Random">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">57</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">59</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+  </Function>
+  <Function ID="63" Type="Chaser" Name="SePar All Green 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+  </Function>
+  <Function ID="64" Type="Chaser" Name="SePar All Green 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+  </Function>
+  <Function ID="65" Type="Chaser" Name="SePar All Green 18x ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+  </Function>
+  <Function ID="66" Type="Chaser" Name="SePar All Red 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+  </Function>
+  <Function ID="67" Type="Chaser" Name="SePar All Red 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+  </Function>
+  <Function ID="68" Type="Chaser" Name="SePar All Red 18x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+  </Function>
+  <Function ID="69" Type="Chaser" Name="SePar All Blue 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+  </Function>
+  <Function ID="70" Type="Chaser" Name="SePar All Blue 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+  </Function>
+  <Function ID="71" Type="Chaser" Name="SePar All Blue 18x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+  </Function>
+  <Function ID="72" Type="Chaser" Name="SePar All White 5x ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+  </Function>
+  <Function ID="73" Type="Chaser" Name="SePar All White 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+  </Function>
+  <Function ID="74" Type="Chaser" Name="SePar All White 18x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+  </Function>
+  <Function ID="75" Type="Collection" Name="SePar Strobo">
+   <Step Number="0">60</Step>
+   <Step Number="1">76</Step>
+  </Function>
+  <Function ID="76" Type="Scene" Name="SePar All Strobo Off">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>7,0</ChannelGroupsVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="SePar All Organge">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,2,60,4,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="SePar All Türkis">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255,2,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="SePar All Lila">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255,1,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="80" Type="Chaser" Name="SePar All Lila 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+  </Function>
+  <Function ID="81" Type="Chaser" Name="SePar All Lila 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+  </Function>
+  <Function ID="82" Type="Chaser" Name="SePar All Lila 18x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+  </Function>
+  <Function ID="83" Type="Chaser" Name="SePar All Organge 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+  </Function>
+  <Function ID="84" Type="Chaser" Name="SePar All Organge 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+  </Function>
+  <Function ID="85" Type="Chaser" Name="SePar All Organge 18x ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+  </Function>
+  <Function ID="86" Type="Chaser" Name="SePar All Türkis 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+  </Function>
+  <Function ID="87" Type="Chaser" Name="SePar All Türkis 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+  </Function>
+  <Function ID="88" Type="Chaser" Name="SePar All Türkis 18x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+  </Function>
+  <Function ID="89" Type="Collection" Name="SePar Color Chaser">
+   <Step Number="0">57</Step>
+   <Step Number="1">56</Step>
+   <Step Number="2">55</Step>
+   <Step Number="3">79</Step>
+   <Step Number="4">77</Step>
+   <Step Number="5">54</Step>
+  </Function>
+  <Function ID="90" Type="Chaser" Name="SePar Color Türkis Lila">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+  </Function>
+  <Function ID="91" Type="Chaser" Name="SePar Color Gelb Blau">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+  </Function>
+  <Function ID="92" Type="Scene" Name="SePar All Yellow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,2,255</ChannelGroupsVal>
+  </Function>
+  <Function ID="93" Type="Chaser" Name="SePar All Yellow 5x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+  </Function>
+  <Function ID="94" Type="Chaser" Name="SePar All Yellow 8x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+  </Function>
+  <Function ID="95" Type="Chaser" Name="SePar All Yellow 18x">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+  </Function>
+  <Function ID="96" Type="Chaser" Name="SePar Dimmer Chaser 10-&gt;1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+  </Function>
+  <Function ID="97" Type="Chaser" Name="SePar Dimmer Chaser 10-&gt;1-&gt;10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="10" FadeIn="0" Hold="52" FadeOut="0">1</Step>
+   <Step Number="11" FadeIn="0" Hold="52" FadeOut="0">2</Step>
+   <Step Number="12" FadeIn="0" Hold="52" FadeOut="0">3</Step>
+   <Step Number="13" FadeIn="0" Hold="52" FadeOut="0">4</Step>
+   <Step Number="14" FadeIn="0" Hold="52" FadeOut="0">5</Step>
+   <Step Number="15" FadeIn="0" Hold="52" FadeOut="0">6</Step>
+   <Step Number="16" FadeIn="0" Hold="52" FadeOut="0">7</Step>
+   <Step Number="17" FadeIn="0" Hold="52" FadeOut="0">8</Step>
+  </Function>
+  <Function ID="98" Type="Chaser" Name="SePar Color White Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+  </Function>
+  <Function ID="99" Type="Chaser" Name="SePar Dimmer Chaser 5-&gt;1-&gt;5; 6-&gt;10-&gt;6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+  </Function>
+  <Function ID="100" Type="Chaser" Name="SePar Dimmer Chaser 5-&gt;1-&gt;5; 10-&gt;6-&gt;10">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+  </Function>
+  <Function ID="101" Type="Collection" Name="SePar Dimmer 01 - 05">
+   <Step Number="0">0</Step>
+   <Step Number="1">1</Step>
+   <Step Number="2">2</Step>
+   <Step Number="3">3</Step>
+   <Step Number="4">4</Step>
+  </Function>
+  <Function ID="102" Type="Collection" Name="SePar Dimmer 06 - 10">
+   <Step Number="0">5</Step>
+   <Step Number="1">6</Step>
+   <Step Number="2">7</Step>
+   <Step Number="3">8</Step>
+   <Step Number="4">9</Step>
+  </Function>
+  <Function ID="103" Type="Chaser" Name="SePar Dimmer Chaser R L">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">102</Step>
+  </Function>
+  <Function ID="104" Type="Chaser" Name="SePar Dimmer Chaser Odd Even ">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">106</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+  </Function>
+  <Function ID="105" Type="Collection" Name="SePar Dimmer Odd">
+   <Step Number="0">0</Step>
+   <Step Number="1">2</Step>
+   <Step Number="2">4</Step>
+   <Step Number="3">6</Step>
+   <Step Number="4">8</Step>
+  </Function>
+  <Function ID="106" Type="Collection" Name="SePar Dimmer Even">
+   <Step Number="0">1</Step>
+   <Step Number="1">3</Step>
+   <Step Number="2">5</Step>
+   <Step Number="3">7</Step>
+   <Step Number="4">9</Step>
+  </Function>
+  <Function ID="107" Type="Collection" Name="SePar Dimmer Front">
+   <Step Number="0">0</Step>
+   <Step Number="1">1</Step>
+   <Step Number="2">2</Step>
+   <Step Number="3">5</Step>
+   <Step Number="4">6</Step>
+  </Function>
+  <Function ID="108" Type="Collection" Name="SePar Dimmer Back">
+   <Step Number="0">3</Step>
+   <Step Number="1">4</Step>
+   <Step Number="2">7</Step>
+   <Step Number="3">8</Step>
+   <Step Number="4">9</Step>
+  </Function>
+  <Function ID="109" Type="Collection" Name="SePar Chas"/>
+  <Function ID="110" Type="Chaser" Name="SePar Dimmer Chaser Back Front">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">108</Step>
+  </Function>
+  <Function ID="111" Type="RGBMatrix" Name="SePar Matrix">
+   <Speed FadeIn="0" FadeOut="0" Duration="30"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+   <Property Name="presetSize" Value="6"/>
+   <Property Name="presetIndex" Value="Sunset"/>
+  </Function>
+  <Function ID="112" Type="Scene" Name="SePar" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="113" Type="Sequence" Name="SePar Rainbow" BoundScene="112">
+   <Speed FadeIn="0" FadeOut="0" Duration="30"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,255:1:1,212,2,42:2:1,170,2,85:3:1,127,2,127:4:1,85,2,170:5:1,42,2,212:6:2,255:7:2,212,3,42:8:2,170,3,85:9:2,127,3,127</Step>
+   <Step Number="1" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,212,2,42:1:1,170,2,85:2:1,127,2,127:3:1,85,2,170:4:1,42,2,212:5:2,255:6:2,212,3,42:7:2,170,3,85:8:2,127,3,127:9:2,85,3,170</Step>
+   <Step Number="2" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,170,2,85:1:1,127,2,127:2:1,85,2,170:3:1,42,2,212:4:2,255:5:2,212,3,42:6:2,170,3,85:7:2,127,3,127:8:2,85,3,170:9:2,42,3,212</Step>
+   <Step Number="3" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,127,2,127:1:1,85,2,170:2:1,42,2,212:3:2,255:4:2,212,3,42:5:2,170,3,85:6:2,127,3,127:7:2,85,3,170:8:2,42,3,212:9:3,255</Step>
+   <Step Number="4" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,85,2,170:1:1,42,2,212:2:2,255:3:2,212,3,42:4:2,170,3,85:5:2,127,3,127:6:2,85,3,170:7:2,42,3,212:8:3,255:9:1,42,3,212</Step>
+   <Step Number="5" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,42,2,212:1:2,255:2:2,212,3,42:3:2,170,3,85:4:2,127,3,127:5:2,85,3,170:6:2,42,3,212:7:3,255:8:1,42,3,212:9:1,85,3,170</Step>
+   <Step Number="6" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:2,255:1:2,212,3,42:2:2,170,3,85:3:2,127,3,127:4:2,85,3,170:5:2,42,3,212:6:3,255:7:1,42,3,212:8:1,85,3,170:9:1,127,3,127</Step>
+   <Step Number="7" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:2,212,3,42:1:2,170,3,85:2:2,127,3,127:3:2,85,3,170:4:2,42,3,212:5:3,255:6:1,42,3,212:7:1,85,3,170:8:1,127,3,127:9:1,170,3,85</Step>
+   <Step Number="8" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:2,170,3,85:1:2,127,3,127:2:2,85,3,170:3:2,42,3,212:4:3,255:5:1,42,3,212:6:1,85,3,170:7:1,127,3,127:8:1,170,3,85:9:1,212,3,42</Step>
+   <Step Number="9" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:2,127,3,127:1:2,85,3,170:2:2,42,3,212:3:3,255:4:1,42,3,212:5:1,85,3,170:6:1,127,3,127:7:1,170,3,85:8:1,212,3,42:9:1,255</Step>
+   <Step Number="10" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:2,85,3,170:1:2,42,3,212:2:3,255:3:1,42,3,212:4:1,85,3,170:5:1,127,3,127:6:1,170,3,85:7:1,212,3,42:8:1,255:9:1,212,2,42</Step>
+   <Step Number="11" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:2,42,3,212:1:3,255:2:1,42,3,212:3:1,85,3,170:4:1,127,3,127:5:1,170,3,85:6:1,212,3,42:7:1,255:8:1,212,2,42:9:1,170,2,85</Step>
+   <Step Number="12" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:3,255:1:1,42,3,212:2:1,85,3,170:3:1,127,3,127:4:1,170,3,85:5:1,212,3,42:6:1,255:7:1,212,2,42:8:1,170,2,85:9:1,127,2,127</Step>
+   <Step Number="13" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,42,3,212:1:1,85,3,170:2:1,127,3,127:3:1,170,3,85:4:1,212,3,42:5:1,255:6:1,212,2,42:7:1,170,2,85:8:1,127,2,127:9:1,85,2,170</Step>
+   <Step Number="14" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,85,3,170:1:1,127,3,127:2:1,170,3,85:3:1,212,3,42:4:1,255:5:1,212,2,42:6:1,170,2,85:7:1,127,2,127:8:1,85,2,170:9:1,42,2,212</Step>
+   <Step Number="15" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,127,3,127:1:1,170,3,85:2:1,212,3,42:3:1,255:4:1,212,2,42:5:1,170,2,85:6:1,127,2,127:7:1,85,2,170:8:1,42,2,212:9:2,255</Step>
+   <Step Number="16" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,170,3,85:1:1,212,3,42:2:1,255:3:1,212,2,42:4:1,170,2,85:5:1,127,2,127:6:1,85,2,170:7:1,42,2,212:8:2,255:9:2,212,3,42</Step>
+   <Step Number="17" FadeIn="0" Hold="30" FadeOut="0" Values="18">0:1,212,3,42:1:1,255:2:1,212,2,42:3:1,170,2,85:4:1,127,2,127:5:1,85,2,170:6:1,42,2,212:7:2,255:8:2,212,3,42:9:2,170,3,85</Step>
+  </Function>
+  <Function ID="114" Type="Collection" Name="SePar Dimmer All">
+   <Step Number="0">0</Step>
+   <Step Number="1">1</Step>
+   <Step Number="2">2</Step>
+   <Step Number="3">3</Step>
+   <Step Number="4">4</Step>
+   <Step Number="5">5</Step>
+   <Step Number="6">6</Step>
+   <Step Number="7">7</Step>
+   <Step Number="8">8</Step>
+   <Step Number="9">9</Step>
+  </Function>
+  <Function ID="115" Type="Scene" Name="SePar" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="116" Type="Sequence" Name="SePar Sunset" BoundScene="115">
+   <Speed FadeIn="0" FadeOut="0" Duration="30"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,255:1:1,255,2,212:2:1,255,2,170:3:1,255,2,127:4:1,255,2,85:5:1,255,2,42:6:1,255:7:1,255,2,42:8:1,255,2,85:9:1,255,2,127</Step>
+   <Step Number="1" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,212:1:1,255,2,170:2:1,255,2,127:3:1,255,2,85:4:1,255,2,42:5:1,255:6:1,255,2,42:7:1,255,2,85:8:1,255,2,127:9:1,255,2,170</Step>
+   <Step Number="2" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,170:1:1,255,2,127:2:1,255,2,85:3:1,255,2,42:4:1,255:5:1,255,2,42:6:1,255,2,85:7:1,255,2,127:8:1,255,2,170:9:1,255,2,212</Step>
+   <Step Number="3" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,127:1:1,255,2,85:2:1,255,2,42:3:1,255:4:1,255,2,42:5:1,255,2,85:6:1,255,2,127:7:1,255,2,170:8:1,255,2,212:9:1,255,2,255</Step>
+   <Step Number="4" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,85:1:1,255,2,42:2:1,255:3:1,255,2,42:4:1,255,2,85:5:1,255,2,127:6:1,255,2,170:7:1,255,2,212:8:1,255,2,255:9:1,255,2,212</Step>
+   <Step Number="5" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,42:1:1,255:2:1,255,2,42:3:1,255,2,85:4:1,255,2,127:5:1,255,2,170:6:1,255,2,212:7:1,255,2,255:8:1,255,2,212:9:1,255,2,170</Step>
+   <Step Number="6" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255:1:1,255,2,42:2:1,255,2,85:3:1,255,2,127:4:1,255,2,170:5:1,255,2,212:6:1,255,2,255:7:1,255,2,212:8:1,255,2,170:9:1,255,2,127</Step>
+   <Step Number="7" FadeIn="0" Hold="30" FadeOut="0" Values="20">0:1,255,2,42:1:1,255,2,85:2:1,255,2,127:3:1,255,2,170:4:1,255,2,212:5:1,255,2,255:6:1,255,2,212:7:1,255,2,170:8:1,255,2,127:9:1,255,2,85</Step>
+   <Step Number="8" FadeIn="0" Hold="30" FadeOut="0" Values="20">0:1,255,2,85:1:1,255,2,127:2:1,255,2,170:3:1,255,2,212:4:1,255,2,255:5:1,255,2,212:6:1,255,2,170:7:1,255,2,127:8:1,255,2,85:9:1,255,2,42</Step>
+   <Step Number="9" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,127:1:1,255,2,170:2:1,255,2,212:3:1,255,2,255:4:1,255,2,212:5:1,255,2,170:6:1,255,2,127:7:1,255,2,85:8:1,255,2,42:9:1,255</Step>
+   <Step Number="10" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,170:1:1,255,2,212:2:1,255,2,255:3:1,255,2,212:4:1,255,2,170:5:1,255,2,127:6:1,255,2,85:7:1,255,2,42:8:1,255:9:1,255,2,42</Step>
+   <Step Number="11" FadeIn="0" Hold="30" FadeOut="0" Values="19">0:1,255,2,212:1:1,255,2,255:2:1,255,2,212:3:1,255,2,170:4:1,255,2,127:5:1,255,2,85:6:1,255,2,42:7:1,255:8:1,255,2,42:9:1,255,2,85</Step>
+  </Function>
+  <Function ID="117" Type="Scene" Name="Standardlicht 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,67,5,172,6,255</FixtureVal>
+   <FixtureVal ID="9">2,255,3,255</FixtureVal>
+   <FixtureVal ID="10">2,255,3,255</FixtureVal>
+   <FixtureVal ID="11">0,255</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="Floor Beleuchtung">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,1,255,2,255,3,0,4,255,5,255,6,0,7,255,8,255,9,0,10,255,11,255,12,0,13,255,14,255,15,0,16,255,17,255,18,0,19,255,20,255,21,0,22,255,23,255,24,0,25,0</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="Farbelicht">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255,1,174,2,255,3,0,4,176,5,254,6,0,7,176,8,253,9,0,10,174,11,255,12,0,13,166,14,255,15,0,16,169,17,255,18,0,19,144,20,255,21,0,22,142,23,255,24,0,25,0</FixtureVal>
+   <FixtureVal ID="8">0,192,1,192,2,50,3,0,4,0,5,130,6,192,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,43,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">0,162,1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>1</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>4278190080</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame Caption="" ID="65">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="1305" Y="35" Width="560" Height="520"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="D" ID="66" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="15" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="48"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>61</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="R" ID="67" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="70" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="49"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>117</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="G" ID="68" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="130" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="50"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="B" ID="69" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="190" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="51"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="W" ID="70" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="250" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="52"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Slider 71" ID="71" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="310" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="53"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="M D" ID="72" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="370" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="54"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="M Z" ID="73" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="430" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="55"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="M C" ID="74" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="490" Y="10" Width="60" Height="500"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="56"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <SpeedDial Caption="Duration" ID="75">
+    <WindowState Visible="False" X="0" Y="1375" Width="200" Height="175"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>127</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="1000">
+     <Input Universe="0" Channel="53"/>
+    </AbsoluteValue>
+    <Tap>
+     <Input Universe="0" Channel="240"/>
+    </Tap>
+    <Apply>
+     <Input Universe="0" Channel="229"/>
+    </Apply>
+    <Time>0</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">103</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">104</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">110</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">51</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">53</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">99</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">100</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">97</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">96</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">45</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">44</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">48</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">50</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">13</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">12</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">90</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">62</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">91</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">73</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">72</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">74</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">87</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">86</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">88</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">67</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">66</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">68</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">84</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">83</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">85</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">81</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">80</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">82</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">64</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">63</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">65</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">70</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">69</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">71</Function>
+   </SpeedDial>
+   <Frame Caption="" ID="76">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="895" Width="910" Height="115"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="SePar All Strobo" ID="77" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="60"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="228"/>
+    </Button>
+    <Button Caption="Button 78" ID="78" Icon="">
+     <WindowState Visible="False" X="105" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="241"/>
+    </Button>
+    <Button Caption="Button 79" ID="79" Icon="">
+     <WindowState Visible="False" X="205" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="230"/>
+    </Button>
+    <Button Caption="Button 80" ID="80" Icon="">
+     <WindowState Visible="False" X="305" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 81" ID="81" Icon="">
+     <WindowState Visible="False" X="405" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 82" ID="82" Icon="">
+     <WindowState Visible="False" X="505" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 83" ID="83" Icon="">
+     <WindowState Visible="False" X="600" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 84" ID="84" Icon="">
+     <WindowState Visible="False" X="700" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Nebelmaschine" ID="85" Icon="">
+     <WindowState Visible="False" X="805" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="49"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="250"/>
+    </Button>
+   </Frame>
+   <Frame Caption="" ID="34">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="0" Width="1155" Height="900"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+   </Frame>
+   <Clock Type="Clock" Caption="" ID="121">
+    <WindowState Visible="False" X="2420" Y="0" Width="230" Height="95"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,-1,28,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Clock>
+   <SoloFrame Caption="" ID="122">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="450" Width="415" Height="415"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Chaser   1-&gt;10" ID="123" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="12"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="152" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser 10-&gt;1" ID="124" Icon="">
+     <WindowState Visible="False" X="105" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="96"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="153" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  1-&gt;5-&gt;1 10-&gt;6&gt;10" ID="125" Icon="">
+     <WindowState Visible="False" X="205" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="50"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="154" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  1-&gt;5-&gt;1; 6-&gt;10-&gt;6" ID="126" Icon="">
+     <WindowState Visible="False" X="305" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="48"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="155" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  1-&gt;10-&gt;1" ID="127" Icon="">
+     <WindowState Visible="False" X="10" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="13"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="144" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser 10&gt;1&gt;10" ID="128" Icon="">
+     <WindowState Visible="False" X="105" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="97"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="145" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser    5-&gt;1-&gt;5  10&gt;6-&gt;10" ID="129" Icon="">
+     <WindowState Visible="False" X="205" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="100"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="146" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  5-&gt;1-&gt;5  6-&gt;10-&gt;6" ID="130" Icon="">
+     <WindowState Visible="False" X="305" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="99"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="147" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  1-&gt;5;  10-&gt;6" ID="131" Icon="">
+     <WindowState Visible="False" X="10" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="44"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="136" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  1-&gt;5;    6-&gt;10" ID="132" Icon="">
+     <WindowState Visible="False" X="105" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="45"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="137" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser   R L" ID="133" Icon="">
+     <WindowState Visible="False" X="205" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="103"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="138" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser   Odd Even " ID="134" Icon="">
+     <WindowState Visible="False" X="305" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="104"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="139" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  5-&gt;1   10-&gt;6" ID="135" Icon="">
+     <WindowState Visible="False" X="10" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="53"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="128" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  5-&gt;1;     6-&gt;10" ID="136" Icon="">
+     <WindowState Visible="False" X="105" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="51"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="129" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Chaser  Back   Front" ID="137" Icon="">
+     <WindowState Visible="False" X="205" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="110"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="130" LowerValue="128" UpperValue="6"/>
+    </Button>
+    <Button Caption="Dimmer All" ID="138" Icon="">
+     <WindowState Visible="False" X="305" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="114"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="131" LowerValue="128" UpperValue="6"/>
+    </Button>
+   </SoloFrame>
+   <SpeedDial Caption="Duration" ID="1">
+    <WindowState Visible="False" X="0" Y="1200" Width="200" Height="175"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>127</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Tap>
+     <Input Universe="0" Channel="231"/>
+    </Tap>
+    <Time>1789</Time>
+   </SpeedDial>
+   <Frame Caption="" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="0" Width="415" Height="415"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Floor Beleuchtung" ID="2" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="118"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="184"/>
+    </Button>
+    <Button Caption="Farbelicht" ID="3" Icon="">
+     <WindowState Visible="False" X="105" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="119"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="185"/>
+    </Button>
+    <Button Caption="Button 4" ID="4" Icon="">
+     <WindowState Visible="False" X="205" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 5" ID="5" Icon="">
+     <WindowState Visible="False" X="305" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 6" ID="6" Icon="">
+     <WindowState Visible="False" X="10" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 7" ID="7" Icon="">
+     <WindowState Visible="False" X="105" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 8" ID="8" Icon="">
+     <WindowState Visible="False" X="205" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 9" ID="9" Icon="">
+     <WindowState Visible="False" X="305" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 10" ID="10" Icon="">
+     <WindowState Visible="False" X="10" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 11" ID="11" Icon="">
+     <WindowState Visible="False" X="105" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 12" ID="12" Icon="">
+     <WindowState Visible="False" X="205" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 13" ID="13" Icon="">
+     <WindowState Visible="False" X="305" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 14" ID="14" Icon="">
+     <WindowState Visible="False" X="10" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 15" ID="15" Icon="">
+     <WindowState Visible="False" X="105" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 16" ID="16" Icon="">
+     <WindowState Visible="False" X="205" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 17" ID="17" Icon="">
+     <WindowState Visible="False" X="305" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="2650" Height="1550"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

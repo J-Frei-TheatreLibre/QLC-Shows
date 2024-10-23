@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>jonas</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>0</ID>
+   <Name>SePar Hex LED RGBAW UV IR 01</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>1</ID>
+   <Name>SePar Hex LED RGBAW UV IR 02</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>2</ID>
+   <Name>SePar Hex LED RGBAW UV IR 03</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>3</ID>
+   <Name>SePar Hex LED RGBAW UV IR 04</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>4</ID>
+   <Name>SePar Hex LED RGBAW UV IR 05</Name>
+   <Universe>0</Universe>
+   <Address>40</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>5</ID>
+   <Name>SePar Hex LED RGBAW UV IR 06</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>6</ID>
+   <Name>SePar Hex LED RGBAW UV IR 07</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>7</ID>
+   <Name>SePar Hex LED RGBAW UV IR 08</Name>
+   <Universe>0</Universe>
+   <Address>70</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>8</ID>
+   <Name>SePar Hex LED RGBAW UV IR 09</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Fun-Generation</Manufacturer>
+   <Model>SePar Hex LED RGBAW UV IR</Model>
+   <Mode>10 Channel</Mode>
+   <ID>9</ID>
+   <Name>SePar Hex LED RGBAW UV IR 10</Name>
+   <Universe>0</Universe>
+   <Address>90</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>SePar</Name>
+   <Size X="4" Y="4"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="0" Fixture="2">0</Head>
+   <Head X="3" Y="0" Fixture="3">0</Head>
+   <Head X="0" Y="1" Fixture="4">0</Head>
+   <Head X="1" Y="1" Fixture="5">0</Head>
+   <Head X="2" Y="1" Fixture="6">0</Head>
+   <Head X="3" Y="1" Fixture="7">0</Head>
+   <Head X="0" Y="2" Fixture="8">0</Head>
+   <Head X="1" Y="2" Fixture="9">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="SePar Dimmer" Value="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="SePar Red" Value="0">0,1,1,1,2,1,3,1,4,1,5,1,6,1,7,1,8,1,9,1</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="SePar Green" Value="0">0,2,1,2,2,2,3,2,4,2,5,2,6,2,7,2,8,2,9,2</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="SePar Blue" Value="0">0,3,1,3,2,3,3,3,4,3,5,3,6,3,7,3,8,3,9,3</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="SePar White" Value="0">0,4,1,4,2,4,3,4,4,4,5,4,6,4,7,4,8,4,9,4</ChannelsGroup>
+  <ChannelsGroup ID="5" Name="SePar Amber" Value="0">0,5,1,5,2,5,3,5,4,5,5,5,6,5,7,5,8,5,9,5</ChannelsGroup>
+  <ChannelsGroup ID="6" Name="SePar UV" Value="0">0,6,1,6,2,6,3,6,4,6,5,6,6,6,7,6,8,6,9,6</ChannelsGroup>
+  <ChannelsGroup ID="7" Name="SePar Programm Slection" Value="0">0,7,1,7,2,7,3,7,4,7,5,7,6,7,7,7,8,7,9,7</ChannelsGroup>
+  <ChannelsGroup ID="8" Name="SePar Pramm Selection 2" Value="0">0,8,1,8,2,8,3,8,4,8,5,8,6,8,7,8,8,8,9,8</ChannelsGroup>
+  <ChannelsGroup ID="9" Name="SePar Strobe" Value="0">0,9,1,9,2,9,3,9,4,9,5,9,6,9,7,9,8,9,9,9</ChannelsGroup>
+  <ChannelsGroup ID="10" Name="SePar Green 1+3" Value="0">0,2,2,2</ChannelsGroup>
+  <ChannelsGroup ID="11" Name="SePar Green 2+4" Value="0">1,2,3,2</ChannelsGroup>
+  <ChannelsGroup ID="12" Name="SePar Green 5+7" Value="0">4,2,6,2</ChannelsGroup>
+  <ChannelsGroup ID="13" Name="SePar Green 6+8" Value="0">5,2,7,2</ChannelsGroup>
+  <ChannelsGroup ID="14" Name="SePar Green 1+6" Value="0">0,2,5,2</ChannelsGroup>
+  <ChannelsGroup ID="15" Name="SePar Green 2+7" Value="0">1,2,6,2</ChannelsGroup>
+  <ChannelsGroup ID="16" Name="SePar Green3+8" Value="0">2,2,7,2</ChannelsGroup>
+  <ChannelsGroup ID="17" Name="SePar Green 4+9" Value="0">3,2,8,2</ChannelsGroup>
+  <ChannelsGroup ID="18" Name="SePar Green 5+10" Value="0">4,2,9,2</ChannelsGroup>
+  <ChannelsGroup ID="19" Name="SePar Red 1+ 6" Value="0">0,1,5,1</ChannelsGroup>
+  <ChannelsGroup ID="20" Name="SePar Red 2+7" Value="0">1,1,6,1</ChannelsGroup>
+  <ChannelsGroup ID="21" Name="SePar Red 3+8" Value="0">2,1,7,1</ChannelsGroup>
+  <ChannelsGroup ID="22" Name="SePar Red 4+9" Value="0">3,1,8,1</ChannelsGroup>
+  <ChannelsGroup ID="23" Name="SePar Red 5+10" Value="0">4,1,9,1</ChannelsGroup>
+  <ChannelsGroup ID="24" Name="SePar Blue 1+6" Value="0">0,3,5,3</ChannelsGroup>
+  <ChannelsGroup ID="25" Name="SePar Blue 2+7" Value="0">1,3,6,3</ChannelsGroup>
+  <ChannelsGroup ID="26" Name="SePar Blue 3+8" Value="0">2,3,7,3</ChannelsGroup>
+  <ChannelsGroup ID="27" Name="SePar Blue 4+9" Value="0">3,3,8,3</ChannelsGroup>
+  <ChannelsGroup ID="28" Name="SePar Blue 5+10" Value="0">4,3,9,3</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="SePar Red 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="SePar Red 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="SePar Red 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="SePar Red 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="SePar Red 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">1,255</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="SePar Red 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,255</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="SePar Red 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">1,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="SePar Red 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">1,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="SePar Red 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="SePar Red 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,255</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="SePar Green 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="SePar Green 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">2,255</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="SePar Green 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">2,255</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="SePar Green 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">2,255</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="SePar Green 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">2,255</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="SePar Green 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">2,255</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="SePar Green 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="SePar Green 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">2,255</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="SePar Green 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">2,255</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="SePar Green 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">2,255</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="SePar Aus Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="SePar Blue 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">3,255</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="SePar Blue 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">3,255</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="Scene Black - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="Scene Black - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Scene Dark Blue - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="1">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="Scene Dark Blue - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="Scene Dark Blue - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="SePar Blau Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="1">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="SePar Blau Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="SePar Blau Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="Scene Dark Green - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="1">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="Scene Dark Green - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Scene Dark Green - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="Scene Dark Cyan - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="1">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="2">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="3">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="4">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="5">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="6">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="7">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Scene Dark Cyan - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="3">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="5">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="7">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="Scene Dark Cyan - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="2">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="4">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="6">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="SePar Grün Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="SePar Grün Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="SePar Grün Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="SePar Tuerkis Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="3">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="4">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="6">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="7">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="SePar Tuerkis Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="3">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="7">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="SePar Tuerkis Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="4">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="6">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="Scene Dark Red - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="Scene Dark Red - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="Scene Dark Red - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="Scene Dark Magenta - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="1">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="2">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="3">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="4">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="5">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="6">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="7">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="Scene Dark Magenta - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="3">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="5">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="7">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="Scene Dark Magenta - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="2">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="4">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="6">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="Scene Dark Yellow - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="1">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="2">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="3">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="4">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="5">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="6">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="7">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="Scene Dark Yellow - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="3">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="5">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="7">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Scene" Name="Scene Dark Yellow - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="2">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="4">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="6">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="52" Type="Scene" Name="Scene Dark Gray - SePar Hex LED RGBAW UV IR" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="1">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="2">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="3">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="4">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="5">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="6">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="7">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="53" Type="Scene" Name="Scene Dark Gray - SePar Hex LED RGBAW UV IR (Even)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="3">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="5">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="7">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="Scene Dark Gray - SePar Hex LED RGBAW UV IR (Odd)" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="2">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="4">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="6">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="SePar Weiß 1/3 Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="1">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="2">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="3">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="4">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="5">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="6">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="7">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="8">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="9">1,192,2,192,3,192</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="SePar Weiß 1/3 Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="3">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="5">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="7">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="9">1,192,2,192,3,192</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="SePar Weiß 1/3 Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="2">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="4">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="6">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="8">1,192,2,192,3,192</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="SePar Rot Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="SePar Rot Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="SePar Rot Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="SePar Lila Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="1">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Scene" Name="SePar Lila Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="63" Type="Scene" Name="SePar Lila Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="64" Type="Scene" Name="SePar Gelb/Organge Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="1">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Scene" Name="SePar Gelb/Organge Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Scene" Name="SePar Gelb/Organge Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="SePar Weiß Alle" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>4,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="SePar Weiß Gerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="SePar Weiß Ungerade" Path="SePar Multiple Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Chaser" Name="16 Colours chaser - SePar Hex LED RGBAW UV IR">
+   <Speed FadeIn="3000" FadeOut="0" Duration="24"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">31</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">36</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">45</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">46</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">48</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">49</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">50</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">51</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">52</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">53</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="34" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="35" FadeIn="0" Hold="0" FadeOut="0">57</Step>
+   <Step Number="36" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="37" FadeIn="0" Hold="0" FadeOut="0">59</Step>
+   <Step Number="38" FadeIn="0" Hold="0" FadeOut="0">60</Step>
+   <Step Number="39" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+   <Step Number="40" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="41" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="42" FadeIn="0" Hold="0" FadeOut="0">64</Step>
+   <Step Number="43" FadeIn="0" Hold="0" FadeOut="0">65</Step>
+   <Step Number="44" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="45" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="46" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="47" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="48" FadeIn="0" Hold="0" FadeOut="0">175</Step>
+  </Function>
+  <Function ID="71" Type="Scene" Name="SePar Blue 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,255</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="SePar Blue 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,255</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="SePar Blue 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">3,255</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Scene" Name="SePar Blue 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,255</FixtureVal>
+  </Function>
+  <Function ID="75" Type="Scene" Name="SePar Blue 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,255</FixtureVal>
+  </Function>
+  <Function ID="76" Type="Scene" Name="SePar Blue 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,255</FixtureVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="SePar Blue 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,255</FixtureVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="SePar Blue 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,255</FixtureVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="SePar White 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">4,255</FixtureVal>
+  </Function>
+  <Function ID="80" Type="Scene" Name="SePar White 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,255</FixtureVal>
+  </Function>
+  <Function ID="81" Type="Scene" Name="SePar White 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,255</FixtureVal>
+  </Function>
+  <Function ID="82" Type="Scene" Name="SePar White 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,255</FixtureVal>
+  </Function>
+  <Function ID="83" Type="Scene" Name="SePar White 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">4,255</FixtureVal>
+  </Function>
+  <Function ID="84" Type="Scene" Name="SePar White 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,255</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="SePar White 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,255</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="SePar White 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,255</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="SePar White 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,255</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="SePar White 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,255</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="SePar Amber 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="SePar Amber 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,255</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="SePar Amber 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,255</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="SePar Amber 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,255</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="SePar Amber 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">5,255</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="SePar Amber 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">5,255</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="SePar Amber 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">5,255</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="SePar Amber 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">5,255</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="SePar Amber 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">5,255</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Scene" Name="SePar Amber 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="99" Type="Scene" Name="SePar UV 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">6,255</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="SePar UV 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">6,255</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="SePar UV 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">6,255</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="SePar UV 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">6,255</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="SePar UV 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">6,255</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="SePar UV 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">6,255</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="SePar UV 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">6,255</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="SePar UV 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">6,255</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="SePar Dimmer 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="SePar UV 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,255</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="SePar UV 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">6,255</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="SePar Dimmer 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="SePar Dimmer 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="SePar Dimmer 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="SePar Dimmer 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="SePar Dimmer 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="SePar Dimmer 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="SePar Dimmer 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="SePar Dimmer 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="SePar Dimmer 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">0,255</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="SePar Strobo 01" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">9,255</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="SePar Strobo 02" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,255</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="SePar Strobo 03" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">9,255</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="SePar Strobo 04" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">9,255</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="SePar Strobo 05" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">9,255</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="SePar Strobo 06" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">9,255</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="SePar Strobo 07" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">9,255</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="SePar Strobo 08" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">9,255</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Scene" Name="SePar Strobo 09" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">9,255</FixtureVal>
+  </Function>
+  <Function ID="128" Type="Scene" Name="SePar Strobo 10" Path="SePar Single">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">9,255</FixtureVal>
+  </Function>
+  <Function ID="129" Type="Collection" Name="SePar Dimmer Gerade">
+   <Step Number="0">107</Step>
+   <Step Number="1">112</Step>
+   <Step Number="2">114</Step>
+   <Step Number="3">116</Step>
+   <Step Number="4">118</Step>
+  </Function>
+  <Function ID="130" Type="Collection" Name="SePar Dimmer Ungerade">
+   <Step Number="0">110</Step>
+   <Step Number="1">111</Step>
+   <Step Number="2">113</Step>
+   <Step Number="3">115</Step>
+   <Step Number="4">117</Step>
+  </Function>
+  <Function ID="131" Type="Collection" Name="SePar Dimmer Alle">
+   <Step Number="0">110</Step>
+   <Step Number="1">107</Step>
+   <Step Number="2">111</Step>
+   <Step Number="3">112</Step>
+   <Step Number="4">113</Step>
+   <Step Number="5">114</Step>
+   <Step Number="6">115</Step>
+   <Step Number="7">116</Step>
+   <Step Number="8">117</Step>
+   <Step Number="9">118</Step>
+  </Function>
+  <Function ID="132" Type="Collection" Name="SePar Dimmer 1-5">
+   <Step Number="0">110</Step>
+   <Step Number="1">107</Step>
+   <Step Number="2">111</Step>
+   <Step Number="3">112</Step>
+   <Step Number="4">113</Step>
+  </Function>
+  <Function ID="133" Type="Collection" Name="SePar Dimmer 6-10">
+   <Step Number="0">114</Step>
+   <Step Number="1">115</Step>
+   <Step Number="2">116</Step>
+   <Step Number="3">117</Step>
+   <Step Number="4">118</Step>
+  </Function>
+  <Function ID="134" Type="Scene" Name="SePar Strobo Null">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>9,0</ChannelGroupsVal>
+   <FixtureVal ID="0">9,0</FixtureVal>
+   <FixtureVal ID="1">9,0</FixtureVal>
+   <FixtureVal ID="2">9,0</FixtureVal>
+   <FixtureVal ID="3">9,0</FixtureVal>
+   <FixtureVal ID="4">9,0</FixtureVal>
+   <FixtureVal ID="5">9,0</FixtureVal>
+   <FixtureVal ID="6">9,0</FixtureVal>
+   <FixtureVal ID="7">9,0</FixtureVal>
+   <FixtureVal ID="8">9,0</FixtureVal>
+   <FixtureVal ID="9">9,0</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Chaser" Name="SePar Lila Türkis parallel with Strobo Short" Path="Even/Uneven">
+   <Speed FadeIn="444" FadeOut="444" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">143</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">144</Step>
+  </Function>
+  <Function ID="136" Type="Chaser" Name="SePar Türkis Lila Synchron">
+   <Speed FadeIn="14313" FadeOut="14313" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+  </Function>
+  <Function ID="137" Type="Chaser" Name="SePar Türkis Lila Synchron (Copy)">
+   <Speed FadeIn="2135" FadeOut="2135" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+  </Function>
+  <Function ID="138" Type="Collection" Name="SePar Türkis Ungerade Lila Gerade">
+   <Step Number="0">62</Step>
+   <Step Number="1">42</Step>
+   <Step Number="2">134</Step>
+  </Function>
+  <Function ID="139" Type="Collection" Name="SePar Türkis Gerade Lila Ungerade">
+   <Step Number="0">41</Step>
+   <Step Number="1">63</Step>
+   <Step Number="2">134</Step>
+  </Function>
+  <Function ID="140" Type="Chaser" Name="SePar Türkis Lila parallel Gerade Ungerade" Path="Even/Uneven">
+   <Speed FadeIn="14313" FadeOut="14313" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+  </Function>
+  <Function ID="141" Type="Collection" Name="SePar "/>
+  <Function ID="142" Type="Collection" Name="Strobo Alle">
+   <Step Number="0">119</Step>
+   <Step Number="1">120</Step>
+   <Step Number="2">121</Step>
+   <Step Number="3">122</Step>
+   <Step Number="4">123</Step>
+   <Step Number="5">124</Step>
+   <Step Number="6">125</Step>
+   <Step Number="7">126</Step>
+   <Step Number="8">127</Step>
+   <Step Number="9">128</Step>
+  </Function>
+  <Function ID="143" Type="Collection" Name="SePar Lila + Strobo Alle">
+   <Step Number="0">119</Step>
+   <Step Number="1">120</Step>
+   <Step Number="2">121</Step>
+   <Step Number="3">122</Step>
+   <Step Number="4">123</Step>
+   <Step Number="5">124</Step>
+   <Step Number="6">125</Step>
+   <Step Number="7">126</Step>
+   <Step Number="8">127</Step>
+   <Step Number="9">128</Step>
+   <Step Number="10">61</Step>
+  </Function>
+  <Function ID="144" Type="Collection" Name="SePar Türkis + Strobo Alle">
+   <Step Number="0">40</Step>
+   <Step Number="1">119</Step>
+   <Step Number="2">120</Step>
+   <Step Number="3">121</Step>
+   <Step Number="4">122</Step>
+   <Step Number="5">123</Step>
+   <Step Number="6">124</Step>
+   <Step Number="7">125</Step>
+   <Step Number="8">126</Step>
+   <Step Number="9">127</Step>
+   <Step Number="10">128</Step>
+  </Function>
+  <Function ID="145" Type="Chaser" Name="SePar Lila Türkis parallel with Strobo" Path="Even/Uneven">
+   <Speed FadeIn="14313" FadeOut="14313" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">143</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">144</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">143</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">144</Step>
+  </Function>
+  <Function ID="146" Type="Chaser" Name="SePar Green 1-10-1">
+   <Speed FadeIn="0" FadeOut="0" Duration="30"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+  </Function>
+  <Function ID="147" Type="Chaser" Name="SePar Green 1-10" Path="1-10 u.ä.">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+  </Function>
+  <Function ID="148" Type="Chaser" Name="SePar Green 10-1" Path="1-10 u.ä.">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+  </Function>
+  <Function ID="149" Type="Chaser" Name="SePar Green 1-5; 6-10 " Path="1-5;6-10">
+   <Speed FadeIn="0" FadeOut="0" Duration="123"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">159</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">162</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+  </Function>
+  <Function ID="150" Type="Chaser" Name="SePar Green 5-1; 10-6" Path="1-5;6-10">
+   <Speed FadeIn="0" FadeOut="0" Duration="123"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">162</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">159</Step>
+  </Function>
+  <Function ID="151" Type="Chaser" Name="SePar Green 1-5-1; 6-10-6" Path="1-5-1; 6-10-6">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">159</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">162</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">162</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+  </Function>
+  <Function ID="152" Type="Chaser" Name="SePar Simple Color">
+   <Speed FadeIn="492" FadeOut="492" Duration="7872"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">64</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+  </Function>
+  <Function ID="153" Type="Chaser" Name="SePar Lila Türkis parallel with Strobo half " Path="Even/Uneven">
+   <Speed FadeIn="444" FadeOut="444" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">144</Step>
+   <Step Number="5" FadeIn="0" Hold="415" FadeOut="0">143</Step>
+   <Step Number="6" FadeIn="0" Hold="415" FadeOut="0">144</Step>
+   <Step Number="7" FadeIn="0" Hold="415" FadeOut="0">143</Step>
+  </Function>
+  <Function ID="154" Type="Chaser" Name="SePar Red 1-10" Path="1-10 u.ä.">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+  </Function>
+  <Function ID="155" Type="Chaser" Name="SePar Blue 1-10" Path="1-10 u.ä.">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">72</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">73</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">74</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">75</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">76</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+  </Function>
+  <Function ID="156" Type="Chaser" Name="SePar Amber 1-10" Path="1-10 u.ä.">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">91</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">93</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">94</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+  </Function>
+  <Function ID="157" Type="Chaser" Name="SePar Simple Color 1-10" Path="1-10 u.ä.">
+   <Speed FadeIn="0" FadeOut="0" Duration="30"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">91</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">93</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">94</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">72</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">73</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">74</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">75</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">76</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">77</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="34" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="35" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="36" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="37" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="38" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="39" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="40" FadeIn="0" Hold="0" FadeOut="0">79</Step>
+   <Step Number="41" FadeIn="0" Hold="0" FadeOut="0">80</Step>
+   <Step Number="42" FadeIn="0" Hold="0" FadeOut="0">81</Step>
+   <Step Number="43" FadeIn="0" Hold="0" FadeOut="0">82</Step>
+   <Step Number="44" FadeIn="0" Hold="0" FadeOut="0">83</Step>
+   <Step Number="45" FadeIn="0" Hold="0" FadeOut="0">84</Step>
+   <Step Number="46" FadeIn="0" Hold="0" FadeOut="0">85</Step>
+   <Step Number="47" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+   <Step Number="48" FadeIn="0" Hold="0" FadeOut="0">87</Step>
+   <Step Number="49" FadeIn="0" Hold="0" FadeOut="0">88</Step>
+  </Function>
+  <Function ID="158" Type="Collection" Name="SePar Rot gerade, Weiß ungerade">
+   <Step Number="0">69</Step>
+   <Step Number="1">59</Step>
+   <Step Number="2">134</Step>
+  </Function>
+  <Function ID="159" Type="Scene" Name="SePar Green 1+6" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>14,255</ChannelGroupsVal>
+   <FixtureVal ID="0">2,255</FixtureVal>
+   <FixtureVal ID="5">2,255</FixtureVal>
+  </Function>
+  <Function ID="160" Type="Scene" Name="SePar Green 2+7" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>15,255</ChannelGroupsVal>
+   <FixtureVal ID="1">2,255</FixtureVal>
+   <FixtureVal ID="6">2,255</FixtureVal>
+  </Function>
+  <Function ID="161" Type="Scene" Name="SePar Green 3+8" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>16,255</ChannelGroupsVal>
+   <FixtureVal ID="2">2,255</FixtureVal>
+   <FixtureVal ID="7">2,255</FixtureVal>
+  </Function>
+  <Function ID="162" Type="Scene" Name="SePar Green 4+9" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>17,255</ChannelGroupsVal>
+   <FixtureVal ID="3">2,255</FixtureVal>
+   <FixtureVal ID="8">2,255</FixtureVal>
+  </Function>
+  <Function ID="163" Type="Scene" Name="SePar Green 5+10" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>18,255</ChannelGroupsVal>
+   <FixtureVal ID="4">2,255</FixtureVal>
+   <FixtureVal ID="9">9,255</FixtureVal>
+  </Function>
+  <Function ID="164" Type="Scene" Name="SePar Red 1+6" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>19,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="5">1,255</FixtureVal>
+  </Function>
+  <Function ID="165" Type="Scene" Name="SePar Red 2+7" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>20,255</ChannelGroupsVal>
+   <FixtureVal ID="1">1,255</FixtureVal>
+   <FixtureVal ID="6">1,255</FixtureVal>
+  </Function>
+  <Function ID="166" Type="Scene" Name="SePar Red 3+8" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>21,255</ChannelGroupsVal>
+   <FixtureVal ID="2">1,255</FixtureVal>
+   <FixtureVal ID="7">1,255</FixtureVal>
+  </Function>
+  <Function ID="167" Type="Scene" Name="SePar Red 4+9" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>22,255</ChannelGroupsVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+   <FixtureVal ID="8">1,255</FixtureVal>
+  </Function>
+  <Function ID="168" Type="Scene" Name="SePar Red 5+10" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="169" Type="Scene" Name="SePar Blue 1+6" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>24,255</ChannelGroupsVal>
+   <FixtureVal ID="0">3,255</FixtureVal>
+   <FixtureVal ID="5">3,255</FixtureVal>
+  </Function>
+  <Function ID="170" Type="Scene" Name="SePar Blue 2+7" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>25,255</ChannelGroupsVal>
+   <FixtureVal ID="1">3,255</FixtureVal>
+   <FixtureVal ID="6">3,255</FixtureVal>
+  </Function>
+  <Function ID="171" Type="Scene" Name="SePar Blue 3+8" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>26,255</ChannelGroupsVal>
+   <FixtureVal ID="2">3,255</FixtureVal>
+   <FixtureVal ID="7">3,255</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Scene" Name="SePar Blue 4+9" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>27,255</ChannelGroupsVal>
+   <FixtureVal ID="3">3,255</FixtureVal>
+   <FixtureVal ID="8">3,255</FixtureVal>
+  </Function>
+  <Function ID="173" Type="Scene" Name="SePar Blue 5+10" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>28,255</ChannelGroupsVal>
+   <FixtureVal ID="4">3,255</FixtureVal>
+   <FixtureVal ID="9">3,255</FixtureVal>
+  </Function>
+  <Function ID="174" Type="Collection" Name="SePar Rot Ungerade, Weißt gerade">
+   <Step Number="0">68</Step>
+   <Step Number="1">60</Step>
+   <Step Number="2">134</Step>
+  </Function>
+  <Function ID="175" Type="Scene" Name="SePar Organge 1+6" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>19,255,14,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,5,255</FixtureVal>
+  </Function>
+  <Function ID="176" Type="Scene" Name="SePar Organge 2+7" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>20,255,15,255</ChannelGroupsVal>
+   <FixtureVal ID="1">1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,5,255</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Scene" Name="SePar Organge 3+8" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>21,255,16,255</ChannelGroupsVal>
+   <FixtureVal ID="2">1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,5,255</FixtureVal>
+  </Function>
+  <Function ID="178" Type="Scene" Name="SePar Organge 4+9" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>22,255,17,255</ChannelGroupsVal>
+   <FixtureVal ID="3">1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,5,255</FixtureVal>
+  </Function>
+  <Function ID="179" Type="Scene" Name="SePar Organge 5+10" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>23,255,18,255</ChannelGroupsVal>
+   <FixtureVal ID="4">1,255,2,255,5,255</FixtureVal>
+   <FixtureVal ID="9">1,255,3,255,5,255,9,0</FixtureVal>
+  </Function>
+  <Function ID="180" Type="Scene" Name="SePar Lila 5+10" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>23,255,28,255</ChannelGroupsVal>
+   <FixtureVal ID="4">1,255,3,255,6,255</FixtureVal>
+   <FixtureVal ID="9">1,255,3,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="181" Type="Scene" Name="SePar Lila 1+6" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>24,255,19,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,3,255,6,255</FixtureVal>
+   <FixtureVal ID="5">1,255,3,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="SePar Lila 2+7" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>20,255,25,255</ChannelGroupsVal>
+   <FixtureVal ID="1">1,255,3,255,6,255</FixtureVal>
+   <FixtureVal ID="6">1,255,3,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="183" Type="Scene" Name="SePar Lila 3+8" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>21,255,26,255</ChannelGroupsVal>
+   <FixtureVal ID="2">1,255,3,255,6,255</FixtureVal>
+   <FixtureVal ID="7">1,255,3,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="184" Type="Scene" Name="SePar Lila 4+9" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>22,255,27,255</ChannelGroupsVal>
+   <FixtureVal ID="3">1,255,3,255,6,255</FixtureVal>
+   <FixtureVal ID="8">1,255,3,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Scene" Name="SePar Tuerkis 1+6" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>14,255,24,255</ChannelGroupsVal>
+   <FixtureVal ID="0">2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="186" Type="Scene" Name="SePar Tuerkis 2+7" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>25,255,15,255</ChannelGroupsVal>
+   <FixtureVal ID="1">2,255,3,255</FixtureVal>
+   <FixtureVal ID="6">2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="187" Type="Scene" Name="SePar Tuerkis 3+8" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>16,255,26,255</ChannelGroupsVal>
+   <FixtureVal ID="2">2,255,3,255</FixtureVal>
+   <FixtureVal ID="7">2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="188" Type="Scene" Name="SePar Tuerkis 4+9" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>17,255,27,255</ChannelGroupsVal>
+   <FixtureVal ID="3">2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="189" Type="Scene" Name="SePar Tuerkis 5+10" Path="SePar Double">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>28,255,18,255</ChannelGroupsVal>
+   <FixtureVal ID="4">2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">3,255,9,255</FixtureVal>
+  </Function>
+  <Function ID="190" Type="Chaser" Name="SePar Color 1-&gt;5; 6-&gt;10 " Path="1-5;6-10">
+   <Speed FadeIn="0" FadeOut="0" Duration="123"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">169</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">170</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">171</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">172</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">173</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">159</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">162</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">181</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">182</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">183</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">184</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">180</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">175</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">176</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">177</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">178</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">179</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">164</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">165</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">166</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">167</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">168</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">185</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">186</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">188</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">189</Step>
+  </Function>
+  <Function ID="191" Type="Collection" Name="SePar Rot Weiß Strobo">
+   <Step Number="0">68</Step>
+   <Step Number="1">60</Step>
+   <Step Number="2">142</Step>
+  </Function>
+  <Function ID="192" Type="Chaser" Name="SePar Red 1-5-1; 6-10-6" Path="1-5-1; 6-10-6">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">164</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">165</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">166</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">167</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">168</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">167</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">166</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">165</Step>
+  </Function>
+  <Function ID="193" Type="Chaser" Name="SePar Blue 1-5-1; 6-10-6" Path="1-5-1; 6-10-6">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">169</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">170</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">171</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">172</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">173</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">172</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">171</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">170</Step>
+  </Function>
+  <Function ID="194" Type="Chaser" Name="SePar Türkis 1-5-1; 6-10-6" Path="1-5-1; 6-10-6">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">185</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">186</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">188</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">189</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">188</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">186</Step>
+  </Function>
+  <Function ID="195" Type="Chaser" Name="SePar Lila 1-5-1; 6-10-6" Path="1-5-1; 6-10-6">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">181</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">182</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">183</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">184</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">180</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">184</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">183</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">182</Step>
+  </Function>
+  <Function ID="196" Type="Chaser" Name="SePar Organge 1-5-1; 6-10-6" Path="1-5-1; 6-10-6">
+   <Speed FadeIn="0" FadeOut="0" Duration="61"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">175</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">176</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">177</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">178</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">179</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">178</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">177</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">176</Step>
+  </Function>
+  <Function ID="197" Type="Chaser" Name="SePar Rot Weiß parallel with Strobo Short" Path="Even/Uneven">
+   <Speed FadeIn="0" FadeOut="0" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">191</Step>
+  </Function>
+  <Function ID="198" Type="Collection" Name="SePar Red 1-5">
+   <Step Number="0">0</Step>
+   <Step Number="1">1</Step>
+   <Step Number="2">2</Step>
+   <Step Number="3">3</Step>
+   <Step Number="4">4</Step>
+  </Function>
+  <Function ID="199" Type="Collection" Name="SePar Red 6-10">
+   <Step Number="0">5</Step>
+   <Step Number="1">6</Step>
+   <Step Number="2">7</Step>
+   <Step Number="3">8</Step>
+   <Step Number="4">9</Step>
+  </Function>
+  <Function ID="200" Type="Collection" Name="SePar Green 1-5">
+   <Step Number="0">10</Step>
+   <Step Number="1">11</Step>
+   <Step Number="2">12</Step>
+   <Step Number="3">13</Step>
+   <Step Number="4">14</Step>
+  </Function>
+  <Function ID="201" Type="Collection" Name="SePar Green 6-10"/>
+  <Function ID="202" Type="Collection" Name=""/>
+  <Function ID="203" Type="Chaser" Name="SePar Lila Türkis gerade ungerade" Path="Even/Uneven">
+   <Speed FadeIn="0" FadeOut="0" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+  </Function>
+  <Function ID="204" Type="Chaser" Name="SePar Rot Weiß parallel Gerade Ungerade" Path="Even/Uneven">
+   <Speed FadeIn="0" FadeOut="0" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="7" FadeIn="0" Hold="401" FadeOut="0">174</Step>
+  </Function>
+  <Function ID="205" Type="Chaser" Name="SePar Lila Türkis gerade ungerade strobo" Path="Even/Uneven">
+   <Speed FadeIn="0" FadeOut="0" Duration="492"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">207</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">144</Step>
+  </Function>
+  <Function ID="206" Type="Collection" Name="New Collection 206"/>
+  <Function ID="207" Type="Collection" Name="SePar Lila gerade + Strobo aus">
+   <Step Number="0">134</Step>
+   <Step Number="1">62</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0" POV="2"/>
+   <FxItem ID="0" XPos="757.937" YPos="1175.87"/>
+   <FxItem ID="1" XPos="1005.44" YPos="1180.05"/>
+   <FxItem ID="2" XPos="1221.69" YPos="1179.96"/>
+   <FxItem ID="3" XPos="1434.11" YPos="1174.44"/>
+   <FxItem ID="4" XPos="1649.01" YPos="1178.35"/>
+   <FxItem ID="5" XPos="1842.61" YPos="1181.63"/>
+   <FxItem ID="6" XPos="2049.35" YPos="1184.91"/>
+   <FxItem ID="7" XPos="2269.21" YPos="1178.35"/>
+   <FxItem ID="8" XPos="2485.79" YPos="1171.79"/>
+   <FxItem ID="9" XPos="2695.8" YPos="1168.51"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="Page 1" ID="0">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="" ID="59">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="0" Width="515" Height="115"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="SePar Dimmer Alle" ID="62" Icon="">
+     <WindowState Visible="False" X="205" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="131"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Dimmer Gerade" ID="63" Icon="">
+     <WindowState Visible="False" X="305" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="129"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Dimmer 1-5" ID="60" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="132"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Dimmer 6-10" ID="61" Icon="">
+     <WindowState Visible="False" X="105" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="133"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Dimmer Ungerade" ID="64" Icon="">
+     <WindowState Visible="False" X="405" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="130"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Button Caption="Button 0" ID="0" Icon="">
+    <WindowState Visible="False" X="0" Y="0" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <SoloFrame Caption="" ID="24">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="825" Y="0" Width="215" Height="115"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="SePar Strobo Null" ID="25" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="134"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Strobo Alle" ID="26" Icon="">
+     <WindowState Visible="False" X="110" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="142"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SpeedDial Caption="Duration" ID="1">
+    <WindowState Visible="False" X="0" Y="905" Width="200" Height="175"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>127</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Time>492</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">137</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">136</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">140</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">194</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">157</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="10">152</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">197</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">204</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">192</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">154</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">196</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">135</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">153</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">145</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">205</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">203</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">195</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">150</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">148</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">149</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">151</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="2">146</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">147</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="4">190</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">193</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">155</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="3">156</Function>
+   </SpeedDial>
+   <SoloFrame Caption="" ID="2">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="245" Width="1205" Height="610"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="SePar Amber 1-10" ID="3" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="156"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Blue 1-10" ID="4" Icon="">
+     <WindowState Visible="False" X="105" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="155"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Green 1-10" ID="5" Icon="">
+     <WindowState Visible="False" X="205" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="147"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Green 10-1" ID="6" Icon="">
+     <WindowState Visible="False" X="305" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="148"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Red 1-10" ID="7" Icon="">
+     <WindowState Visible="False" X="405" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="154"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Simple Color 1-10" ID="8" Icon="">
+     <WindowState Visible="False" X="505" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="157"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Blue 1-5-1; 6-10-6" ID="9" Icon="">
+     <WindowState Visible="False" X="600" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="193"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Green 1-5-1; 6-10-6" ID="10" Icon="">
+     <WindowState Visible="False" X="700" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="151"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Lila 1-5-1; 6-10-6" ID="11" Icon="">
+     <WindowState Visible="False" X="800" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="195"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Organge 1-5-1; 6-10-6" ID="12" Icon="">
+     <WindowState Visible="False" X="900" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="196"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Red 1-5-1; 6-10-6" ID="13" Icon="">
+     <WindowState Visible="False" X="1000" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="192"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Türkis 1-5-1; 6-10-6" ID="14" Icon="">
+     <WindowState Visible="False" X="1095" Y="10" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="194"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Color 1-&gt;5; 6-&gt;10 " ID="15" Icon="">
+     <WindowState Visible="False" X="10" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="190"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Green 1-5; 6-10 " ID="16" Icon="">
+     <WindowState Visible="False" X="105" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="149"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Green 5-1; 10-6" ID="17" Icon="">
+     <WindowState Visible="False" X="205" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="150"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Lila Türkis gerade ungerade" ID="18" Icon="">
+     <WindowState Visible="False" X="305" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="203"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Lila Türkis gerade ungerade strobo" ID="19" Icon="">
+     <WindowState Visible="False" X="405" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="205"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Lila Türkis parallel with Strobo" ID="20" Icon="">
+     <WindowState Visible="False" X="505" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="145"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Lila Türkis parallel with Strobo half " ID="21" Icon="">
+     <WindowState Visible="False" X="600" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="153"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Lila Türkis parallel with Strobo Short" ID="22" Icon="">
+     <WindowState Visible="False" X="700" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="135"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Rot Weiß parallel Gerade Ungerade" ID="23" Icon="">
+     <WindowState Visible="False" X="800" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="204"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Rot Weiß parallel with Strobo Short" ID="27" Icon="">
+     <WindowState Visible="False" X="900" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="197"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Türkis Lila parallel Gerade Ungerade" ID="28" Icon="">
+     <WindowState Visible="False" X="1000" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="140"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="16 Colours chaser - SePar Hex LED RGBAW UV IR" ID="29" Icon="">
+     <WindowState Visible="False" X="1095" Y="105" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="70"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Green 1-10-1" ID="30" Icon="">
+     <WindowState Visible="False" X="10" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="146"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Simple Color" ID="31" Icon="">
+     <WindowState Visible="False" X="105" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="152"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Türkis Lila Synchron" ID="32" Icon="">
+     <WindowState Visible="False" X="205" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="136"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="SePar Türkis Lila Synchron (Copy)" ID="33" Icon="">
+     <WindowState Visible="False" X="305" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="137"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 34" ID="34" Icon="">
+     <WindowState Visible="False" X="405" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 35" ID="35" Icon="">
+     <WindowState Visible="False" X="505" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 36" ID="36" Icon="">
+     <WindowState Visible="False" X="600" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 37" ID="37" Icon="">
+     <WindowState Visible="False" X="700" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 38" ID="38" Icon="">
+     <WindowState Visible="False" X="800" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 39" ID="39" Icon="">
+     <WindowState Visible="False" X="900" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 40" ID="40" Icon="">
+     <WindowState Visible="False" X="1000" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 41" ID="41" Icon="">
+     <WindowState Visible="False" X="1095" Y="205" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 42" ID="42" Icon="">
+     <WindowState Visible="False" X="10" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 43" ID="43" Icon="">
+     <WindowState Visible="False" X="105" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 44" ID="44" Icon="">
+     <WindowState Visible="False" X="205" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 45" ID="45" Icon="">
+     <WindowState Visible="False" X="305" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 46" ID="46" Icon="">
+     <WindowState Visible="False" X="405" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 47" ID="47" Icon="">
+     <WindowState Visible="False" X="505" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 48" ID="48" Icon="">
+     <WindowState Visible="False" X="600" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 49" ID="49" Icon="">
+     <WindowState Visible="False" X="700" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 50" ID="50" Icon="">
+     <WindowState Visible="False" X="800" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 51" ID="51" Icon="">
+     <WindowState Visible="False" X="900" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 52" ID="52" Icon="">
+     <WindowState Visible="False" X="1000" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 53" ID="53" Icon="">
+     <WindowState Visible="False" X="1095" Y="305" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 54" ID="54" Icon="">
+     <WindowState Visible="False" X="10" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 55" ID="55" Icon="">
+     <WindowState Visible="False" X="105" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 56" ID="56" Icon="">
+     <WindowState Visible="False" X="205" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 57" ID="57" Icon="">
+     <WindowState Visible="False" X="305" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 58" ID="58" Icon="">
+     <WindowState Visible="False" X="405" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 65" ID="65" Icon="">
+     <WindowState Visible="False" X="505" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 66" ID="66" Icon="">
+     <WindowState Visible="False" X="600" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 67" ID="67" Icon="">
+     <WindowState Visible="False" X="700" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 68" ID="68" Icon="">
+     <WindowState Visible="False" X="800" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 69" ID="69" Icon="">
+     <WindowState Visible="False" X="900" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 70" ID="70" Icon="">
+     <WindowState Visible="False" X="1000" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 71" ID="71" Icon="">
+     <WindowState Visible="False" X="1095" Y="405" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 72" ID="72" Icon="">
+     <WindowState Visible="False" X="10" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 73" ID="73" Icon="">
+     <WindowState Visible="False" X="105" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 74" ID="74" Icon="">
+     <WindowState Visible="False" X="205" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 75" ID="75" Icon="">
+     <WindowState Visible="False" X="305" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 76" ID="76" Icon="">
+     <WindowState Visible="False" X="405" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 77" ID="77" Icon="">
+     <WindowState Visible="False" X="505" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 78" ID="78" Icon="">
+     <WindowState Visible="False" X="600" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 79" ID="79" Icon="">
+     <WindowState Visible="False" X="700" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 80" ID="80" Icon="">
+     <WindowState Visible="False" X="800" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 81" ID="81" Icon="">
+     <WindowState Visible="False" X="900" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 82" ID="82" Icon="">
+     <WindowState Visible="False" X="1000" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 83" ID="83" Icon="">
+     <WindowState Visible="False" X="1095" Y="505" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
